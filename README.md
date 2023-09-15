@@ -49,5 +49,3 @@ This script is designed to delete MP4 files from a specified directory (includin
 2. Navigate to the directory where the script is located using the `cd` command.
 3. Run the script using the command: `DeleteMp4Files.bat`.
 4. Follow the prompts to enter the directory to search for .mp4 files and specify the file size criteria. You can choose to delete files larger, smaller, or equal to the specified size, or delete all .mp4 files.
-
-I hope this updated README file aligns with your requirements. If you have any more changes or need further assistance, please let me know.
