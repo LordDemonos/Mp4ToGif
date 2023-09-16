@@ -100,28 +100,31 @@ Consider that these are approximate values, and the actual size may vary dependi
 
 Feel free to experiment with different quality settings to find the optimal balance between GIF quality and file size.
 
-### Prerequisite: Installing FFmpeg
+## Prerequisite: Installing FFmpeg
 
-Before utilizing the batch scripts provided, ensure to install FFmpeg, a versatile multimedia framework that facilitates the manipulation of video and audio files, including video to GIF conversions. Follow these steps to install FFmpeg:
+Before utilizing the provided batch scripts, you'll need to install FFmpeg, a powerful multimedia framework that facilitates the manipulation of video and audio files, including the conversion of videos to GIFs. Here are the steps to install FFmpeg:
 
 ### Windows Installation
 
-- Download FFmpeg: Visit the official FFmpeg website's download page and select the "Windows Builds" section.
-- Choose a Build: Select a build compatible with your system architecture (32-bit or 64-bit) and download it. If uncertain, the 64-bit version is a safe choice for most modern Windows systems.
-- Extract the Archive: After downloading, extract the archive contents to a directory on your computer.
-- Add FFmpeg to System Path (Optional): To use FFmpeg from any command prompt window, add the FFmpeg directory to your system's PATH environment variable by following these steps:
-- Right-click on "This PC" or "My Computer" and select "Properties."
-- Click on "Advanced system settings" on the left sidebar.
-- In the "System Properties" window, click the "Environment Variables" button.
-- Under "System variables," find the "Path" variable and click "Edit."
-- Click "New" and add the path to the directory where you extracted FFmpeg.
-- Click "OK" to save your changes.
+1. **Download FFmpeg:** Visit the [FFmpeg Official Website](https://www.ffmpeg.org/download.html) to download the latest version. Choose the "Windows Builds" section to find the appropriate build for your system.
 
-### Verify Installation: Open a new command prompt window and type the following command to verify the FFmpeg installation:
+2. **Choose a Build:** Select a build that suits your system architecture (32-bit or 64-bit) and download it. If you're unsure, the 64-bit version is a safe choice for most modern Windows systems.
 
-```batch
-ffmpeg -version
-```
+3. **Extract the Archive:** After downloading, extract the contents of the downloaded archive to a directory on your computer.
+
+4. **Add FFmpeg to System Path (Optional):** To use FFmpeg from any command prompt window, you can add the FFmpeg directory to your system's PATH environment variable. Follow these steps to do so:
+   
+   - Right-click on "This PC" or "My Computer" and select "Properties."
+   - Click on "Advanced system settings" on the left sidebar.
+   - In the "System Properties" window, click the "Environment Variables" button.
+   - Under "System variables," find the "Path" variable and click "Edit."
+   - Click "New" and add the path to the directory where you extracted FFmpeg.
+   - Click "OK" to save your changes.
+
+5. **Verify Installation:** To confirm that FFmpeg has been installed successfully, open a new command prompt window and type the following command:
+   
+   ```bash
+   ffmpeg -version
 
 ### Instructions
 
