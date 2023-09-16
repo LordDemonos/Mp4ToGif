@@ -25,7 +25,7 @@ FileOrganizer.bat is a comprehensive batch script designed to streamline file or
 - Transfers all files from subdirectories to the source directory.
 - Identifies and removes empty subdirectories with user consent.
 - Categorizes image files (jpg, jpeg, png, gif, bmp, tiff, webp, psd, raw, heif, indd, jpeg2000, svg, ai, eps, pdf) into a "Pictures" subdirectory.
-- Categorizes video files (webm, mpg, mp2, mpeg, mpe, mpv, ogg, mp4, m4p, m4v, m4a, avi, wmv, mov, qt, flv, swf, srt, sbv, ssa, ttml, dfxp, vtt, avchd) into a "Videos" subdirectory.
+- Categorizes video and subtitle files (webm, mpg, mp2, mpeg, mpe, mpv, ogg, mp4, m4p, m4v, m4a, avi, wmv, mov, qt, flv, swf, srt, sbv, ssa, ttml, dfxp, vtt, avchd) into a "Videos" subdirectory.
 - Facilitates user interaction at various stages for a controlled organization process.
 - Implements efficient error handling to ensure smooth operation, even with password-protected archives.
 
