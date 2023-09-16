@@ -1,6 +1,60 @@
-# Batch File Scripts for Managing MP4 Files
+# Batch File Scripts for Managing Downloaded Files
 
-This collection of batch files assists in managing and converting MP4 files in various ways. The primary focus is on converting MP4 files to GIF format, followed by scripts to move large MP4 files and to delete MP4 files as per user discretion.
+This collection of batch files assists in managing downloaded files and converting MP4 files in various ways. The primary focus is on converting MP4 files to GIF format, followed by scripts to move large MP4 files and to delete MP4 files as per user discretion.
+
+## FileOrganizer.bat
+
+### Description
+The FileOrganizer.bat is a comprehensive batch script designed to help you organize your files efficiently in a Windows environment. It performs a series of operations including extracting archives, moving files, and organizing them into designated folders based on their file types. It provides user interaction at various stages to ensure a controlled and customizable file organization process.
+
+### Features
+Prompt for Source Directory: Prompts the user to specify the source directory where the operations will be performed.
+
+### Archive File Extraction:
+
+Searches for common archive files (zip, rar, 7z, tar.gz, jar, cab, dmg, kgb) in the source directory and its subdirectories.
+Extracts the contents of the found archives in-place using 7-Zip.
+Handles password-protected archives by prompting the user for the password.
+Offers options to mark the archive for removal or to keep it in case of incorrect password input.
+Moves all remaining archives to the recycling bin, excluding the ones marked to keep.
+### File and Folder Organization:
+
+Moves all files from subdirectories to the source directory.
+Checks and deletes empty subdirectories with user approval.
+Organizes image files (jpg, jpeg, png, gif, bmp, tiff, webp, psd, raw, heif, indd, jpeg2000, svg, ai, eps, pdf) into a "Pictures" subdirectory.
+Organizes video files (webm, mpg, mp2, mpeg, mpe, mpv, ogg, mp4, m4p, m4v, avi, wmv, mov, qt, flv, swf, avchd) into a "Videos" subdirectory.
+User Interaction: Provides feedback and prompts for user input at various stages to ensure a controlled file organization process.
+
+Error Handling: Efficient error handling to ensure smooth operation even with password-protected archives.
+
+## Prerequisites
+Before you begin using the FileOrganizer.bat script, ensure that your system meets the following prerequisites:
+
+### 1. 7-Zip
+The script utilizes 7-Zip, a file archiver with a high compression ratio, to extract various archive file formats. Follow these steps to install and configure 7-Zip:
+
+Download: Visit the 7-Zip Official Website to download the latest version of 7-Zip.
+
+Installation: Install 7-Zip by following the installation wizard. By default, it installs to the C:\Program Files\7-Zip\ directory.
+
+Script Configuration: Ensure that the path to 7z.exe in the script matches the installation directory. If you installed 7-Zip in a different directory, update the script with the correct path. The relevant line in the script is:
+
+batch
+Copy code
+"C:\Program Files\7-Zip\7z.exe" x "%%F" -o"%%~dpF" -p"!Password!"
+### 2. Windows Environment
+The FileOrganizer.bat script is designed to run exclusively on Windows systems. Ensure that you have administrative privileges to execute batch scripts and manage files on your system.
+
+### 3. Backup Your Data
+Before running the script, it's highly recommended to backup your data. The script performs actions such as moving and deleting files, which could potentially result in data loss if not used carefully.
+
+### 4. Testing the Script
+Before using the script for important data, test it with non-critical data to ensure it functions as expected and to familiarize yourself with its operations.
+
+### Usage
+Run the script by double-clicking on FileOrganizer.bat or executing it from the command prompt.
+Follow the prompts to specify the source directory and provide necessary inputs during the script execution.
+Monitor the command prompt window for detailed information on the operations being performed and to provide inputs where necessary.
 
 ## ConvertMp4ToGif.bat
 
