@@ -86,12 +86,16 @@ MP4 File Size (MB) | Approx. Duration (sec) | Estimated GIF Size (MB) | Estimate
 
 Here's an estimation of the size differences you can expect for the five quality options based on a typical 1-minute video:
 
-Quality Option Approx. GIF Size (MB)
-320 pixels wide 6.55
-480 pixels wide 13.1
-640 pixels wide (default) 26.2
-800 pixels wide 52.4
-1024 pixels wide 83.8
+```
+| Quality Option            | Approx. GIF Size (MB) |
+| ------------------------- | --------------------- |
+| 320 pixels wide           | 6.55                  |
+| 480 pixels wide           | 13.1                  |
+| 640 pixels wide (default) | 26.2                  |
+| 800 pixels wide           | 52.4                  |
+| 1024 pixels wide          | 83.8                  |
+```
+
 Consider that these are approximate values, and the actual size may vary depending on the video content. Choose the quality option that best aligns with your needs and preferences.
 
 Feel free to experiment with different quality settings to find the optimal balance between GIF quality and file size.
