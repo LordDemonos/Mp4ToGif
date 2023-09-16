@@ -1,6 +1,6 @@
 # Batch File Scripts for Managing Downloaded Files
 
-This collection of batch files facilitates the management of downloaded files and the conversion of MP4 files in various ways. The primary focus is on converting MP4 files to GIF format, complemented by scripts to relocate large MP4 files and to remove MP4 files at the user's discretion.
+This suite of batch files is designed to streamline the management of a large volume of downloaded files, typically accumulated through tools like jdownloader or ripme. Initially, the `FileOrganizer.bat` sifts through the clutter, segregating files into distinct 'Videos' and 'Pictures' folders, thus setting the stage for further file manipulations. Following this, the `ConvertMp4ToGif.bat` comes into play, transforming manageable MP4 files into GIF format for seamless integration into slideshow viewers like XnView MP. Lastly, the `MoveLargeMp4Files.bat` and `DeleteMp4Files.bat` grant users the discretion to either archive substantial MP4 files for future reference or purge smaller, now redundant, MP4 files, maintaining a clean and organized directory.
 
 ## FileOrganizer.bat
 
