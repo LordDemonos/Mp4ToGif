@@ -106,27 +106,29 @@ Before utilizing the batch scripts provided, ensure to install FFmpeg, a versati
 
 ### Windows Installation
 
-Download FFmpeg: Visit the official FFmpeg website's download page and select the "Windows Builds" section.
-Choose a Build: Select a build compatible with your system architecture (32-bit or 64-bit) and download it. If uncertain, the 64-bit version is a safe choice for most modern Windows systems.
-Extract the Archive: After downloading, extract the archive contents to a directory on your computer.
-Add FFmpeg to System Path (Optional): To use FFmpeg from any command prompt window, add the FFmpeg directory to your system's PATH environment variable by following these steps:
-Right-click on "This PC" or "My Computer" and select "Properties."
-Click on "Advanced system settings" on the left sidebar.
-In the "System Properties" window, click the "Environment Variables" button.
-Under "System variables," find the "Path" variable and click "Edit."
-Click "New" and add the path to the directory where you extracted FFmpeg.
-Click "OK" to save your changes.
+- Download FFmpeg: Visit the official FFmpeg website's download page and select the "Windows Builds" section.
+- Choose a Build: Select a build compatible with your system architecture (32-bit or 64-bit) and download it. If uncertain, the 64-bit version is a safe choice for most modern Windows systems.
+- Extract the Archive: After downloading, extract the archive contents to a directory on your computer.
+- Add FFmpeg to System Path (Optional): To use FFmpeg from any command prompt window, add the FFmpeg directory to your system's PATH environment variable by following these steps:
+- Right-click on "This PC" or "My Computer" and select "Properties."
+- Click on "Advanced system settings" on the left sidebar.
+- In the "System Properties" window, click the "Environment Variables" button.
+- Under "System variables," find the "Path" variable and click "Edit."
+- Click "New" and add the path to the directory where you extracted FFmpeg.
+- Click "OK" to save your changes.
 
 ### Verify Installation: Open a new command prompt window and type the following command to verify the FFmpeg installation:
 
+```batch
 ffmpeg -version
+```
 
 ### Instructions
 
-Open the Command Prompt as an administrator.
-Navigate to the script's location using the cd command.
-Execute the script with the command: ConvertMp4ToGif.bat.
-Follow the prompts to specify the directory for the search and the minimum file size in MB for conversion.
+- Open the Command Prompt as an administrator.
+- Navigate to the script's location using the cd command.
+- Execute the script with the command: ConvertMp4ToGif.bat.
+- Follow the prompts to specify the directory for the search and the minimum file size in MB for conversion.
 
 ## MoveLargeMp4Files.bat
 
@@ -136,10 +138,10 @@ This script is devised to relocate MP4 files from a specified directory (includi
 
 ### Instructions
 
-Open the Command Prompt as an administrator.
-Navigate to the script's location using the cd command.
-Execute the script with the command: MoveLargeMp4Files.bat.
-Follow the prompts to specify the source and destination directories, as well as the minimum file size in MB.
+- Open the Command Prompt as an administrator.
+- Navigate to the script's location using the cd command.
+- Execute the script with the command: MoveLargeMp4Files.bat.
+- Follow the prompts to specify the source and destination directories, as well as the minimum file size in MB.
 
 ## DeleteMp4Files.bat
 
@@ -149,7 +151,7 @@ This script is crafted to remove MP4 files from a specified directory (including
 
 ### Instructions
 
-Open the Command Prompt as an administrator.
-Navigate to the script's location using the cd command.
-Execute the script with the command: DeleteMp4Files.bat.
-Follow the prompts to specify the directory for .mp4 file search and determine the file size criteria. Options include deleting files larger, smaller, or equal to the specified size, or removing all .mp4 files.
+- Open the Command Prompt as an administrator.
+- Navigate to the script's location using the cd command.
+- Execute the script with the command: DeleteMp4Files.bat.
+- Follow the prompts to specify the directory for .mp4 file search and determine the file size criteria. Options include deleting files larger, smaller, or equal to the specified size, or removing all .mp4 files.
