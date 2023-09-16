@@ -22,25 +22,17 @@ MP4 File Size (MB) | Approx. Duration (sec) | Estimated GIF Size (MB) | Estimate
 150                | 1800 (30 minutes)      | 196.5                   | 206,143,472 bytes
 ```
 
-## GIF Quality Options
-
-When running the `ConvertMp4ToGif.bat` script, you can choose the quality of the generated GIF files. The quality is determined by the scaling factor, which affects the width of the output GIF. Here are the available quality options:
-
-- **320 pixels wide:** This option is suitable for smaller GIFs with a width of 320 pixels. It provides a good balance between file size and quality. Use this for smaller GIFs.
-
-- **480 pixels wide:** Choose this option for medium-sized GIFs with a width of 480 pixels. It offers improved quality and is ideal for medium-sized animations.
-
-- **640 pixels wide:** Select this option for high-quality GIFs with a width of 640 pixels. Use it when you want the best quality and are not concerned about file size.
-
 ### Estimated Size Differences
 
-Here's an estimation of the size differences you can expect for the three quality options based on a typical 1-minute video:
+Here's an estimation of the size differences you can expect for the five quality options based on a typical 1-minute video:
 
 | Quality Option      | Approx. GIF Size (MB) |
 |---------------------|-----------------------|
 | 320 pixels wide     | 6.55                  |
 | 480 pixels wide     | 13.1                  |
-| 640 pixels wide     | 26.2                  |
+| 640 pixels wide (default) | 26.2              |
+| 800 pixels wide     | 52.4                  |
+| 1024 pixels wide    | 83.8                  |
 
 Keep in mind that these are approximate values, and the actual size may vary depending on the content of your videos. You can choose the quality option that best suits your needs and preferences.
 
