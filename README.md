@@ -2,6 +2,44 @@
 
 This suite of batch files is designed to streamline the management of a large volume of downloaded files, typically accumulated through tools like JDownloader2 or RipMe2. Initially, the `FileOrganizer.bat` sifts through the clutter, segregating files into distinct 'Videos' and 'Pictures' folders, thus setting the stage for further file manipulations. Following this, the `ConvertMp4ToGif.bat` comes into play, transforming manageable MP4 files into GIF format for seamless integration into slideshow viewers like XnView MP. Lastly, the `MoveLargeMp4Files.bat` and `DeleteMp4Files.bat` grant users the discretion to either archive substantial MP4 files for future reference or purge smaller, now redundant, MP4 files, maintaining a clean and organized directory.
 
+## Table of Contents
+
+- [Batch File Scripts for Managing Downloaded Files](#batch-file-scripts-for-managing-downloaded-files)
+  - [FileOrganizer.bat](#fileorganizerbat)
+    - [Description](#description)
+    - [Features](#features)
+      - [Archive File Extraction](#archive-file-extraction)
+      - [File and Folder Organization](#file-and-folder-organization)
+  - [Prerequisites](#prerequisites)
+    - [1. 7-Zip](#1-7-zip)
+    - [2. Windows Environment](#2-windows-environment)
+    - [3. Data Backup](#3-data-backup)
+    - [4. Script Testing](#4-script-testing)
+    - [Usage](#usage)
+  - [ConvertMp4ToGif.bat](#convertmp4togifbat)
+    - [Use Case](#use-case)
+    - [Approximation of GIF File Size](#approximation-of-gif-file-size)
+    - [Estimated Size Differences](#estimated-size-differences)
+    - [OpenGL Support](#opengl-support)
+    - [Enhanced Error Handling](#enhanced-error-handling)
+    - [Conversion Summary](#conversion-summary)
+  - [Prerequisite: Installing FFmpeg](#prerequisite-installing-ffmpeg)
+    - [Windows Installation](#windows-installation)
+    - [Instructions](#instructions)
+  - [ConvertMp4ToHQGif.bat](#convertmp4tohqgifbat)
+    - [Use Case](#use-case-1)
+    - [Prerequisite: Installing Gifski CLI](#prerequisite-installing-gifski-cli)
+      - [Step 1: Download and Install Gifski](#step-1-download-and-install-gifski)
+      - [Step 2: Add Gifski to the Environment Variables](#step-2-add-gifski-to-the-environment-variables)
+      - [Step 3: Verify the Installation](#step-3-verify-the-installation)
+    - [Instructions](#instructions-1)
+  - [MoveLargeMp4Files.bat](#movelargemp4filesbat)
+    - [Use Case](#use-case-2)
+    - [Instructions](#instructions-2)
+  - [DeleteMp4Files.bat](#deletemp4filesbat)
+    - [Use Case](#use-case-3)
+    - [Instructions](#instructions-3)
+
 ## FileOrganizer.bat
 
 ### Description
