@@ -100,6 +100,24 @@ Consider that these are approximate values, and the actual size may vary dependi
 
 Feel free to experiment with different quality settings to find the optimal balance between GIF quality and file size.
 
+#### OpenGL Support
+
+The `ConvertMp4ToGif.bat` and `ConvertMp4ToHQGif.bat` scripts have been upgraded to support OpenGL acceleration, which can potentially speed up the conversion process. To make use of this feature, ensure that your system supports OpenGL and that the necessary drivers are up-to-date.
+
+#### Enhanced Error Handling
+
+We have implemented robust error handling mechanisms to ensure the scripts run smoothly even when encountering issues during the conversion process. The scripts are now equipped to identify and report errors more effectively, allowing for a smoother user experience.
+
+#### Conversion Summary
+
+At the end of the conversion process, the scripts will now provide a detailed summary that includes the following information:
+
+1. **Number of Files Created:** A count of the new GIF files that have been created during the current session.
+2. **Total Size of New GIFs:** The cumulative file size of the newly created GIFs, helping you to manage your storage space more effectively.
+3. **Error Summary:** A concise report of any errors encountered during the conversion process, along with suggestions for potential resolutions.
+
+This summary aims to give you a comprehensive overview of the conversion session, helping you to track the progress and manage your files more efficiently.
+
 ## Prerequisite: Installing FFmpeg
 
 Before utilizing the provided batch scripts, you'll need to install FFmpeg, a powerful multimedia framework that facilitates the manipulation of video and audio files, including the conversion of videos to GIFs. Here are the steps to install FFmpeg:
@@ -137,6 +155,7 @@ Before utilizing the provided batch scripts, you'll need to install FFmpeg, a po
 ## ConvertMp4ToHQGif.bat
 
 ### Use Case
+
 This script leverages the capabilities of [Gifski](https://gif.ski/), a high-quality GIF encoder, to convert MP4 files to high-quality GIFs. Gifski utilizes pngquant's features to create efficient cross-frame palettes and temporal dithering, allowing for the production of GIFs with thousands of colors per frame. It also offers functionalities to resize animations and adjust compression levels. This script is configured to enforce maximum quality settings, resulting in larger file sizes for the generated GIFs. Users should monitor the file size of the resulting GIFs closely to manage storage effectively.
 
 **Note:** This script requires both Gifski and FFmpeg to function correctly. Please ensure that you have followed the [FFmpeg installation instructions](#prerequisite-installing-ffmpeg) provided earlier in this README before using `ConvertMp4ToHQGif.bat`.
@@ -144,10 +163,12 @@ This script leverages the capabilities of [Gifski](https://gif.ski/), a high-qua
 ### Prerequisite: Installing Gifski CLI
 
 #### Step 1: Download and Install Gifski
+
 - Visit the [Gifski website](https://gif.ski/) to download the latest version of the Gifski command-line tool (CLI).
 - Extract the downloaded file to a preferred location on your computer (e.g., `C:\Gifski\`).
 
 #### Step 2: Add Gifski to the Environment Variables
+
 - Right-click on "This PC" or "My Computer" on your desktop or in File Explorer, and select "Properties".
 - Click on "Advanced system settings" on the left sidebar.
 - In the System Properties window, click on the "Environment Variables..." button near the bottom right.
@@ -156,10 +177,12 @@ This script leverages the capabilities of [Gifski](https://gif.ski/), a high-qua
 - Click "OK" to close each of the windows.
 
 #### Step 3: Verify the Installation
+
 - Open a new command prompt (type `cmd` in the Windows search bar and press Enter).
 - Type `gifski -h` and press Enter. This command should display the help information for Gifski, indicating that it has been successfully added to the system path.
 
 ### Instructions
+
 1. Open the Command Prompt as an administrator.
 2. Navigate to the directory where the script is located using the `cd` command.
 3. Run the script using the command: `ConvertMp4ToHQGif.bat`.
