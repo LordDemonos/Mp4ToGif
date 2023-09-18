@@ -20,7 +20,6 @@ This suite of batch files is designed to streamline the management of a large vo
     - [Use Case](#use-case)
     - [Approximation of GIF File Size](#approximation-of-gif-file-size)
     - [Estimated Size Differences](#estimated-size-differences)
-    - [OpenGL Support](#opengl-support)
     - [Enhanced Error Handling](#enhanced-error-handling)
     - [Conversion Summary](#conversion-summary)
   - [Prerequisite: Installing FFmpeg](#prerequisite-installing-ffmpeg)
@@ -137,10 +136,6 @@ Here's an estimation of the size differences you can expect for the five quality
 Consider that these are approximate values, and the actual size may vary depending on the video content. Choose the quality option that best aligns with your needs and preferences.
 
 Feel free to experiment with different quality settings to find the optimal balance between GIF quality and file size.
-
-#### OpenGL Support
-
-The `ConvertMp4ToGif.bat` and `ConvertMp4ToHQGif.bat` scripts have been upgraded to support OpenGL acceleration, which can potentially speed up the conversion process. To make use of this feature, ensure that your system supports OpenGL and that the necessary drivers are up-to-date.
 
 #### Enhanced Error Handling
 
