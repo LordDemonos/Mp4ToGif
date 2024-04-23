@@ -70,7 +70,7 @@ FileOrganizer.bat is a comprehensive batch script designed to streamline file or
 
 Before utilizing the FileOrganizer.bat script, ensure your system meets the following prerequisites:
 
-### 1. 7-Zip
+### 1. 7-Zip (Not Working Yet)
 
 The script leverages 7-Zip, a file archiver with a high compression ratio, to handle various archive file formats. Follow these steps to install and configure 7-Zip:
 
